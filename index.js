@@ -55,7 +55,7 @@ var Connection = function(opts) {
   // validate options
 
   if(!_.isString(this.clientId)) throw new Error('invalid or missing clientId');
-  if(!_.isString(this.clientSecret)) throw new Error('invalid or missing clientSecret');
+  // if(!_.isString(this.clientSecret)) throw new Error('invalid or missing clientSecret');
   if(!_.isString(this.redirectUri)) throw new Error('invalid or missing redirectUri');
   if(!_.isString(this.loginUri)) throw new Error('invalid or missing loginUri');
   if(!_.isString(this.testLoginUri)) throw new Error('invalid or missing testLoginUri');
